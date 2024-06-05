@@ -1,6 +1,6 @@
  We will be solving some problems here.
 
- Q. Group the job by title and count number of jobs, their minimim, maximum and average salary
+ Q1. Group the job by title and count number of jobs, their minimim, maximum and average salary
 and display them in order with maximum job counts.
 
 SELECT job_title_short AS jobs,
@@ -12,3 +12,9 @@ FROM job_postings_fact
 GROUP BY jobs
 HAVING job_count > 100
 ORDER BY job_count DESC
+
+
+Q2. Count total jobs which provides health insurance in the column job_health_insurance.
+Ans. SELECT COUNT(job_health_insurance) as insurance_count
+	FROM job_postings_fact
+	WHERE job_health_insurance = TRUE
