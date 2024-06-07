@@ -34,5 +34,10 @@ MIN()
 Comments are written within (--) and /* */
 sqliteviz
 
+JOINS 
+LEFT JOIN
+RIGHT JOIN
+INNER JOIN
+
 
 
