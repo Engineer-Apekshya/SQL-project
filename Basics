@@ -32,7 +32,6 @@ MAX()
 MIN()
 
 Comments are written within (--) and /* */
-sqliteviz
 
 JOINS 
 LEFT JOIN
