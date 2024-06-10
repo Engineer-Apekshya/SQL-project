@@ -1,0 +1,11 @@
+STEPS:
+1. Open postgres SQL and enter your password
+2. Open your folder in VsCode and create test.sql file 
+3. Make sure to add extension (SQLTools and SQLTools PostgresSQL/Cockroach Driver)
+4. > SQLTools icon in Vscode > Add new connection > postgreSQL
+5. Fill connection name = database = username = "postgres"
+6. > Test connection > Enter password (Successfully connected) > Save connection
+
+
+Note: We do not use postgres database which is already present there because it contains core database configuration
+Now we create our new database on it Follow folowing steps to create our database:
