@@ -51,4 +51,28 @@ TEXT = unlimited text
 TIMESTAMP WITH TIME ZONE
 
 
+Working with Date Time Function
+::DATE  =  converts datatype to Date
+AT TIME ZONE = It comverts timestamps between different time zones
+EXTRACT = to extract month, year, day from date
+
+CASE EXPRESSIONS
+CASE = begins expression
+WHEN = condition
+THEN = what to do after condition is TRUE
+ELSE = what to do after condition is FALSE
+END = end the CASE expression
+
+Subqueries and CTE's (Common Table Expressions)  are executed before main query is executed  and return the result in a new column AS given name
+Subqueries are queries written within () 
+Subqueries are used within SELECT (), FROM (), WHERE(), HAVING()
+Example:
+SELECT * FROM ( SELECT...FROM...WHERE...) AS result_name
+
+CTEs are  written using ( WITH ) within (SELECT, INSERT, UPDATE, DELETE)
+Example: 
+WITH result_name AS ( SELECT .... FROM ... WHERE....)
+SELECT * FROM result_name
+
+
 
